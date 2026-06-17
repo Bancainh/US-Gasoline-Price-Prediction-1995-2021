@@ -21,7 +21,7 @@ This project applies **Supervised Machine Learning** to predict the trend of ret
 ## 🛠 Setup & Usage
 1. Clone the repository:
    ```bash
-   git clone <your-repository-url>
+   git clone https://github.com/Bancainh/US-Gasoline-Price-Prediction-1995-2021/tree/main
 2. Install the required dependencies:
    pip install pandas numpy scikit-learn
 3. Execute the analysis script:
