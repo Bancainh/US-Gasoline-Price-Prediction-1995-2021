@@ -9,14 +9,14 @@ This project applies **Supervised Machine Learning** to predict the trend of ret
 * **Models:** Logistic Regression, Decision Tree Classifier
 
 ## 📊 Methodology
-1. [cite_start]**Data Processing:** Cleaned and processed historical pricing datasets (1995–2021); performed feature engineering on the target variable (Up/Down) to identify seasonal market trends[cite: 5, 6, 7].
-2. [cite_start]**Feature Selection:** Utilized key predictors: `Previous_Month_Gas_Price`, `Current_Diesel_Price`, and `Month` (to capture seasonal demand)[cite: 8, 10, 11].
-3. [cite_start]**Model Development:** Built and compared classification models (Logistic Regression vs. Decision Tree) to evaluate predictive performance[cite: 13, 16].
+1. **Data Processing:** Cleaned and processed historical pricing datasets (1995–2021); performed feature engineering on the target variable (Up/Down) to identify seasonal market trends[cite: 5, 6, 7].
+2. **Feature Selection:** Utilized key predictors: `Previous_Month_Gas_Price`, `Current_Diesel_Price`, and `Month` (to capture seasonal demand)[cite: 8, 10, 11].
+3. **Model Development:** Built and compared classification models (Logistic Regression vs. Decision Tree) to evaluate predictive performance[cite: 13, 16].
 
 ## 📈 Key Findings & Evaluation
-* [cite_start]**Performance:** The Decision Tree Classifier demonstrated better capability in capturing non-linear relationships compared to Logistic Regression[cite: 15, 17].
-* [cite_start]**Insights:** `Current_Diesel_Price` emerged as a strong predictor, and the `Month` feature highlighted increased travel demand during summer months[cite: 20, 21].
-* [cite_start]**Limitations:** The current model lacks macroeconomic variables (e.g., inflation, geopolitical crises) which are planned for future analysis[cite: 24, 25, 27].
+* **Performance:** The Decision Tree Classifier demonstrated better capability in capturing non-linear relationships compared to Logistic Regression[cite: 15, 17].
+* **Insights:** `Current_Diesel_Price` emerged as a strong predictor, and the `Month` feature highlighted increased travel demand during summer months[cite: 20, 21].
+* **Limitations:** The current model lacks macroeconomic variables (e.g., inflation, geopolitical crises) which are planned for future analysis[cite: 24, 25, 27].
 
 ## 🛠 Setup & Usage
 1. Clone the repository:
